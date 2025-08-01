@@ -1,0 +1,1 @@
+The far-focus image moves attention to another region, showing a cell cluster at the center. These cells remain sharply defined, clearly displaying nuclei and cytoplasmic structures. Their arrangement appears more spread out than in the previous image.

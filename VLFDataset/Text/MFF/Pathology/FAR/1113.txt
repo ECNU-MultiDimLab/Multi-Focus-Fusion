@@ -1,0 +1,1 @@
+The far-focus image focuses on the lower right corner, where the outlines of the cells and some internal structures are visible. The rest of the image, including the previously focused cluster in the center, is now blurred, demonstrating a shift in the focal plane.

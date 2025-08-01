@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells, which are now in the background. These cells are also well-defined, with visible details and textures that stand out against the blurred foreground.

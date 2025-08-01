@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different cluster of cells in the lower right corner. This area displays a distinct group of cells with visible features, although the surrounding cells are less sharply defined compared to the first image. The contrast between the focused and unfocused areas highlights the depth of the sample.

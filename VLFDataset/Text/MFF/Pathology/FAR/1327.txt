@@ -1,0 +1,1 @@
+The far-focus image displays a more diffuse cellular cluster, with moderately blurred details and attenuated edge definition. This optical softening indicates a focal plane offset from the optimal imaging plane captured in the near-focus image.

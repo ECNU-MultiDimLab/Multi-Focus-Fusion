@@ -1,0 +1,1 @@
+The far-focus image displays a cell cluster with mild defocus, yielding softer cellular contours and reduced detail resolution. While nuclei remain identifiable, they lack the sharp definition of the primary image, suggesting the focal plane lies slightly behind these structures.

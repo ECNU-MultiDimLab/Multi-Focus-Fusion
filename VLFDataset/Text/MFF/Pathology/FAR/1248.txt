@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells scattered across the frame. The cells in this image appear more blurred and less distinct, indicating that the focus is not as sharp as in the first image. The overall clarity is reduced, making it difficult to discern fine details.
