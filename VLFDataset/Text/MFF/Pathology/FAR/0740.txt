@@ -1,0 +1,1 @@
+The far-focus image focuses on a different cluster of cells, which are located towards the top right corner of the frame. Similar to the first image, the focused area shows clearer details of the cells, while the rest of the image is out of focus.

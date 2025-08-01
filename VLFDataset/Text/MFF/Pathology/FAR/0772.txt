@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells, this time in the lower left corner. These cells are also sharply captured, displaying their cellular components and boundaries with clarity. The contrast between the focused cells and the blurred background highlights the details of the cells in this region.

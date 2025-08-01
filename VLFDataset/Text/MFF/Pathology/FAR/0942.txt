@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different cluster of cells, located towards the center-right. These cells are also sharply in focus, with visible details such as the boundaries and internal structures, while the surrounding areas are out of focus.

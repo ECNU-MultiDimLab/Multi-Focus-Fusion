@@ -1,0 +1,1 @@
+The far-focus image captures densely packed cells near the background. The cytoplasmic details are less distinct compared to the near-focus image, with reduced cell-background contrast resulting in a softer visual presentation.

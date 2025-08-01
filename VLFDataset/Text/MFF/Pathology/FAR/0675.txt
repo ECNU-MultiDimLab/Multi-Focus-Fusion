@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells in the upper half of the area, providing a sharp view of these cells while the rest of the image remains out of focus. The details of the cells in this region are crisp and easily discernible.
