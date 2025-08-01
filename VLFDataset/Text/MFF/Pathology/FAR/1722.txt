@@ -1,0 +1,1 @@
+The far-focus image shifts focus to the surrounding area, highlighting smaller, scattered cells with less defined features, indicating a different depth within the sample.

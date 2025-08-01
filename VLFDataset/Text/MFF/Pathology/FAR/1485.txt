@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different cluster of cells in the upper right corner, where the details are equally sharp. The cells in this region are densely packed, and their outlines are well-defined, showcasing the intricate arrangement and morphology of the cellular structures.

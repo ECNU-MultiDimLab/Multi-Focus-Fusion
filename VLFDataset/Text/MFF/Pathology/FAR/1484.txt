@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells scattered across the frame, with emphasis on the cells in the center. These cells are also well-defined, showcasing their shapes and internal features, although the overall density appears lower compared to the first image.
