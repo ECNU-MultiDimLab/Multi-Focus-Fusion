@@ -1,0 +1,1 @@
+ The far-focus image shifts the focus to the slightly blurred area surrounding the cluster, highlighting the transition between the focused and out-of-focus regions. The cells in this section appear softer and less defined, creating a contrast with the sharpness of the focused cluster in the previous image.

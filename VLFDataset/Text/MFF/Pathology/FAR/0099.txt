@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different cluster of cells in the upper-half of the image, providing a detailed view of these cells. The focus highlights the intricate details of the cells, such as the nucleus and cytoplasm, making them stand out against the slightly blurred background. 

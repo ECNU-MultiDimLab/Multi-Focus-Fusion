@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different cluster of cells in the upper left corner, providing a detailed view of these cells. The focus highlights the texture and arrangement of the cells, making them stand out from the surrounding area that is softly out of focus.

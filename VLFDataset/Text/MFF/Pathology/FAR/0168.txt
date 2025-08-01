@@ -1,0 +1,1 @@
+ The far-focus image shifts focus across the sample except the lower-middle region of the image and the upper right corner. The cells are well-defined with visible textures and structures, contrasting with the out-of-focus surroundings.

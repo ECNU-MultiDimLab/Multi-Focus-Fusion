@@ -1,0 +1,1 @@
+The far-focus image shifts the focus to a different set of cells, this time in the center of the image. These cells are also in sharp focus, revealing detailed features such as the texture and contours of the cells, providing a clear view of their morphology. 
