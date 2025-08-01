@@ -15,14 +15,14 @@ The texts of the test dataset used in the paper were provided in the format ``'.
 
 Run 
 ```
-python data_process.py
+data_process.py
 ``` 
-and the processed training dataset is in ``'./VLFDataset_h5/'``.
+to obtain the processed testing dataset in ``'./VLFDataset_h5/'``.
 
 **4. Results in Our Paper**
 
 If you want to infer with our Mg-FILM and obtain the fusion results in our paper, please run 
 ```
-python test_stu.py
+test_stu.py
 ``` 
 to perform image fusion. Set the variable "dataset_name" to the name of the dataset that you want to infer. The output fusion results will be saved in the ``'./test_output/{Dataset_name}/stu'``  folder.
