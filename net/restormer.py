@@ -7,14 +7,6 @@ from einops import rearrange
 import numbers
 
 def drop_path(x, drop_prob: float = 0., training: bool = False):
-    """
-    Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks).
-    This is the same as the DropConnect impl I created for EfficientNet, etc networks, however,
-    the original name is misleading as 'Drop Connect' is a different form of dropout in a separate paper...
-    See discussion: https://github.com/tensorflow/tpu/issues/494#issuecomment-532968956 ... I've opted for
-    changing the layer and argument names to 'drop path' rather than mix DropConnect as a layer name and use
-    'survival rate' as the argument.
-    """
     if drop_prob == 0. or not training:
         return x
     keep_prob = 1 - drop_prob
@@ -95,7 +87,6 @@ class Mlp(nn.Module):
 
         self.dwconv = nn.Conv2d(hidden_features*2, hidden_features*2, kernel_size=3,
                                 stride=1, padding=1, groups=hidden_features, bias=bias)
-        # 这里可以在考虑一下结构，我觉得用MLP效果可能更好一点
         self.project_out = nn.Conv2d(
             hidden_features, in_features, kernel_size=1, bias=bias)
     def forward(self, x):
@@ -109,7 +100,7 @@ class BaseFeatureExtraction(nn.Module):
     def __init__(self,
                  dim,
                  num_heads,
-                 ffn_expansion_factor=1.,  # 轻量化的时候这里设置成1
+                 ffn_expansion_factor=1.,
                  qkv_bias=False,flag=None):
         super(BaseFeatureExtraction, self).__init__()
 
