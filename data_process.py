@@ -19,7 +19,6 @@ elif dataset_name == 'Pathology':
     small_size_0 = (256, 256)
     small_size_1 = (256, 256)
 with h5py.File(h5_file_path, 'w') as h5_file:
-    # 创建数据集组
     imageA = h5_file.create_group('imageA')
     imageB = h5_file.create_group('imageB')
     textA = h5_file.create_group('textA')
@@ -31,7 +30,6 @@ with h5py.File(h5_file_path, 'w') as h5_file:
     for name in file_list:
         name = name.split('.')[0]
         sample_names.append(name)
-        # 获取所有样本的文件名（不包括文件扩展名）
     for sample_name in tqdm(sample_names):
         if dataset_mode == 'train':
             '''img_A = image_read_cv2(os.path.join(img_text_path, 'Image', task_name, dataset_name, 'NEAR', sample_name + '.png'),mode='RGB')/ 255.0
@@ -67,7 +65,6 @@ with h5py.File(h5_file_path, 'w') as h5_file:
                 text_array_A = str(file.read())
             with open(os.path.join(img_text_path, 'Text', task_name, dataset_name, 'NEAR', sample_name + '.txt'), 'r', encoding='utf-8') as file:
                 text_array_B = str(file.read())
-            # 将图像和文本保存到HDF5文件中
         imageA.create_dataset(sample_name, data=img_A)
         imageB.create_dataset(sample_name, data=img_B)
         textA.create_dataset(sample_name, data=text_array_A)
