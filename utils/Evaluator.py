@@ -1,4 +1,3 @@
-'''用于评估图像融合结果'''
 import numpy as np
 import cv2
 import sklearn.metrics as skm
@@ -172,14 +171,12 @@ class Evaluator():
         QAF = cls.Qabf_getQabf(aA, gA, aF, gF)
         QBF = cls.Qabf_getQabf(aB, gB, aF, gF)
 
-        # 计算QABF
         deno = np.sum(gA + gB)
         nume = np.sum(np.multiply(QAF, gA) + np.multiply(QBF, gB))
         return nume / deno
 
     @classmethod
     def Qabf_getArray(cls,img):
-        # Sobel Operator Sobel算子
         h1 = np.array([[1, 2, 1], [0, 0, 0], [-1, -2, -1]]).astype(np.float32)
         h2 = np.array([[0, 1, 2], [-1, 0, 1], [-2, -1, 0]]).astype(np.float32)
         h3 = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]]).astype(np.float32)
