@@ -33,7 +33,7 @@ class DropPath(nn.Module):
 
 class AttentionBase(nn.Module):
     def __init__(self,
-                 dim,   # 输入token的dim
+                 dim,
                  num_heads=8,
                  qkv_bias=False,):
         super(AttentionBase, self).__init__()
@@ -177,9 +177,6 @@ class DetailFeatureExtraction(nn.Module):
             z1, z2 = layer(z1, z2)
         return torch.cat((z1, z2), dim=1)
 
-# =============================================================================
-# 开始最前面的Encoder
-# =============================================================================
 import numbers
 ##########################################################################
 ## Layer Norm
